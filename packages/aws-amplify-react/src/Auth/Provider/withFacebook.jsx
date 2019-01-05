@@ -65,7 +65,7 @@ export default function withFacebook(Comp) {
                             this.federatedSignIn(response.authResponse);
                         },
                         {
-                            scope: 'public_profile,email'
+                            scope: 'public_profile,user_location,email'
                         }
                     );
                 }
